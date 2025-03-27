@@ -4,10 +4,12 @@ import Home from './Pages/Home/Home';
 import Destinations from './Pages/Destinations/Destinations';
 import Holidays from './Pages/Holidays/Holidays';
 import CityBreaks from './Pages/CityBreaks/CityBreaks';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBar/>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/city-breaks' element={<CityBreaks/>} />
