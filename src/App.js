@@ -5,6 +5,7 @@ import Destinations from './Pages/Destinations/Destinations';
 import Holidays from './Pages/Holidays/Holidays';
 import CityBreaks from './Pages/CityBreaks/CityBreaks';
 import NavigationBar from './components/NavigationBar/NavigationBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/holidays' element={<Holidays/>} />
         <Route path='/destinations' element={<Destinations/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
