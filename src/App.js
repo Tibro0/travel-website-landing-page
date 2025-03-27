@@ -4,8 +4,8 @@ import Home from './Pages/Home/Home';
 import Destinations from './Pages/Destinations/Destinations';
 import Holidays from './Pages/Holidays/Holidays';
 import CityBreaks from './Pages/CityBreaks/CityBreaks';
-import NavigationBar from './components/NavigationBar/NavigationBar';
-import Footer from './components/Footer/Footer';
+import NavigationBar from './Components/NavigationBar/NavigationBar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
