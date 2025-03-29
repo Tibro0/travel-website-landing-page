@@ -1,7 +1,7 @@
 import React from 'react';
 import './LastHolidaysSection.css';
 import { Container } from 'react-bootstrap';
-import LastHolidaysItems from '../LastHolidaysItems';
+import LastHolidaysItems from '../../Assets/LastHolidaysItems';
 import LastHolidayCard from './LastHolidayCard';
 
 function LastHolidaysSection() {

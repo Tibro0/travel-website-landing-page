@@ -5,6 +5,7 @@ import SearchForm from '../../Components/SearchForm/SearchForm';
 import LastHolidaysSection from '../../Components/LastHolidaysSection/LastHolidaysSection';
 import RecommendedSection from '../../Components/RecommendedSection/RecommendedSection';
 import HolidayPlanSection from '../../Components/HolidayPlanSection/HolidayPlanSection';
+import FavouritesSection from '../../Components/FavouritesSection/FavouritesSection';
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
                 <RecommendedSection itemRecommendedTitle='Recommended for you'/>
             </div>
             <HolidayPlanSection itemHolidayPlanTitle='Plan Your Summer Holiday'/>
+            <FavouritesSection/>
         </div>
     )
 }
